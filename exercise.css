@@ -1,0 +1,184 @@
+
+body{
+    width: 1728px;
+    height: 1117px;
+    background-color: #1D3158;
+}
+
+/* <!------------------ nav bar --------------------> */
+header{
+    width: 1728px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+.baro{
+    width: 156px;
+    height: 33px;
+    margin-left : 95px;
+    /* margin-top: 72px; */ 
+    
+}
+.subpages{
+    width: 120px;
+    height: 30px;
+
+    padding: 0.75px, 2.5px, 0.75px, 2.5px;
+    cursor: pointer;
+    color : #FFFFFF;
+    
+    background-color:transparent;
+    border: none;
+    
+    font-size: 20px;
+    cursor: pointer;
+}
+.page{
+    margin-left: -401px;
+}
+.login{
+    margin-right: 129px;
+}
+
+/* <!------------------ main --------------------> */
+.main{
+    display: flex;
+}
+.logo_bon{
+    position: relative;
+}
+.bon{
+    width: 1002px;
+    height: 1002px;
+    margin-left: -191px;
+    margin-top : -264px;
+    transform: rotate(-15deg);
+    opacity: 0.4;
+    
+}
+
+.content{
+    margin-left : -570px;
+    position: relative;
+}
+
+#title{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+#exercise_what{
+    color: #8DDBE0;
+    font-size : 30px;
+}
+.video_box{
+    width: 1364px;
+    height: 657px;
+    background-color: #000000;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.04);
+    border-radius: 35px;
+
+    
+    
+    margin-top : 61px;
+}
+.left_right{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 530px;
+    height: 270px;
+    margin-left: 89px;
+    /* margin-top: 73px; */
+    padding-top: 73px;
+    /* background-color: #FFFFFF; */
+}
+.today_exercise{
+    width: 530px;
+    height: 80px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* margin-top: 73px;
+    margin-left: 89px; */
+}
+.day{
+    font-size: 30px;
+}
+.today_exe{
+    font-size: 25px;
+}
+
+.play_btn{
+    width: 530px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.play_video{
+    width: 134px;
+    height: 134px;
+    background-color: #367cFF;
+    color: #FFFFFF;
+    border-radius: 100%;
+
+    font-size: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+.detail{
+    width : 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    width: 500px;
+    height: 268px;
+    margin-top: 73px;
+    align-items: center;
+}
+.right iframe{
+    width: 500px;
+    height: 268px;
+    margin-left: -40px;
+}
+
+.bottom{
+    width: 1318px;
+    height: 180px;
+    margin-left: 90px;
+    margin-top: 61px;
+    display: flex;
+    
+}
+.sub_video{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-right: 26px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.sub_video iframe{
+    width: 260px;
+    height: 122px;
+}
+
+.sub_video_btn{
+    width: 57px;
+    height: 180px;
+    background-color: #454545B5;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 45px;
+}
