@@ -179,7 +179,7 @@ body {
 }
 
 .maintext {
-    width: 56px;
+    width: 90px;
     height: 26px;
     font-family: 'Noto Sans KR';
     font-style: normal;
@@ -193,7 +193,7 @@ body {
 }
 
 .subtext1 {
-    width: 187px;
+    width: 200px;
     margin: 34px 102px 0px 56px;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
@@ -202,7 +202,7 @@ body {
   }
 
 .subtext2 {
-    width: 187px;
+    width: 250px;
     margin: 5px 102px 0px 56px;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
