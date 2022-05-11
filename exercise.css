@@ -7,24 +7,32 @@ body{
 
 /* <!------------------ nav bar --------------------> */
 header{
-    width: 1728px;
-    height: 150px;
+    width: 67.5vw;
+    height: 5.8vw;
+    /* width: 1728px;
+    height: 150px; */
     display: flex;
     justify-content: space-between;    
     align-items: center;
 }
 .baro{
-    width: 156px;
-    height: 33px;
-    margin-left : 95px;
+    width: 6vw;
+    height: 1.2vw;
+    /* width: 156px;
+    height: 33px; */
+    
+    margin-left : 3.7vw;
+    /* margin-left : 95px; */
     /* margin-top: 72px; */ 
     
 }
 .subpages{
-    width: 120px;
-    height: 30px;
+    width: 4.6vw;
+    height: 1.1vw;
+    /* width: 120px;
+    height: 30px; */
 
-    padding: 0.75px, 2.5px, 0.75px, 2.5px;
+    padding: 0.3vw, 0.1vw, 0.3vw, 0.1vw;
     cursor: pointer;
     color : #FFFFFF;
     
@@ -35,10 +43,12 @@ header{
     cursor: pointer;
 }
 .page{
-    margin-left: -401px;
+    margin-left: -15.6vw;
+    /* margin-left: -401px; */
 }
 .login{
-    margin-right: 129px;
+    margin-right: 5vw;
+    /* margin-right: 129px; */
 }
 
 /* <!------------------ main --------------------> */
@@ -49,17 +59,22 @@ header{
     position: relative;
 }
 .bon{
-    width: 1002px;
-    height: 1002px;
-    margin-left: -191px;
-    margin-top : -264px;
+    width: 39.1vw;
+    height: 39.1vw;
+    /* width: 1002px;
+    height: 1002px; */
+    margin-left: -7.4vw;
+    margin-top : -10vw;
+    /* margin-left: -191px;
+    margin-top : -264px; */
     transform: rotate(-15deg);
     opacity: 0.4;
     
 }
 
 .content{
-    margin-left : -570px;
+    margin-left : -22.2vw;
+    /* margin-left : -570px; */
     position: relative;
 }
 
@@ -73,32 +88,38 @@ header{
     font-size : 30px;
 }
 .video_box{
-    width: 1364px;
-    height: 657px;
+    width: 53vw;
+    height: 25.6vw;
+    /* width: 1364px;
+    height: 657px; */
     background-color: #000000;
     color: #FFFFFF;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.04);
     border-radius: 35px;
-
     
-    
-    margin-top : 61px;
+    margin-top : 2.3vw;
+    /* margin-top : 61px; */
 }
 .left_right{
     display: flex;
     justify-content: space-around;
 }
 .left{
-    width: 530px;
-    height: 270px;
-    margin-left: 89px;
+    width: 20vw;
+    height: 10vw;
+    /* width: 530px;
+    height: 270px; */
+    margin-left: 3.4vw;
+    /* margin-left: 89px; */
     /* margin-top: 73px; */
-    padding-top: 73px;
+    padding-top: 2.8vw;
     /* background-color: #FFFFFF; */
 }
 .today_exercise{
-    width: 530px;
-    height: 80px;
+    width: 20vw;
+    height: 3.1vw;
+    /* width: 530px;
+    height: 80px; */
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
@@ -115,15 +136,19 @@ header{
 }
 
 .play_btn{
-    width: 530px;
-    height: 200px;
+    width: 20vw;
+    height: 7.8vw;
+    /* width: 530px;
+    height: 200px; */
     display: flex;
     justify-content: space-around;
 }
 
 .play_video{
-    width: 134px;
-    height: 134px;
+    width: 5.2vw;
+    height: 5.2vw;
+    /* width: 134px;
+    height: 134px; */
     background-color: #367cFF;
     color: #FFFFFF;
     border-radius: 100%;
@@ -133,36 +158,48 @@ header{
     cursor: pointer;
 }
 .detail{
-    width : 300px;
-    height: 40px;
+    width : 11.4vw;
+    height: 1.5vw;
+    /* width : 300px;
+    height: 40px; */
     display: flex;
     justify-content: space-between;
 }
 
 .right{
-    width: 500px;
-    height: 268px;
-    margin-top: 73px;
+    width: 19.5vw;
+    height: 10.4vw;
+    /* width: 500px;
+    height: 268px; */
+    margin-top: 2.8vw;
+    /* margin-top: 73px; */
     align-items: center;
 }
 .right iframe{
-    width: 500px;
-    height: 268px;
-    margin-left: -40px;
+    width: 19.5vw;
+    height: 10.4vw;
+    /* width: 500px;
+    height: 268px; */
+    margin-left: -1.5vw;
+    /* margin-left: -40px; */
 }
 
 .bottom{
-    width: 1318px;
+    width: 51.4vw;
+    height: 7vw;
+    margin-left: 3.5vw;
+    margin-top: 2.3vw;
+    /* width: 1318px;
     height: 180px;
     margin-left: 90px;
-    margin-top: 61px;
+    margin-top: 61px; */
     display: flex;
     
 }
 .sub_video{
     color: #FFFFFF;
     font-size: 15px;
-    margin-right: 26px;
+    margin-right: 1vw;
 }
 .last{
     display: flex;
@@ -170,13 +207,17 @@ header{
     font-size: 15px;
 }
 .sub_video iframe{
-    width: 260px;
-    height: 122px;
+    width: 10.1vw;
+    height: 4.7vw;
+    /* width: 260px;
+    height: 122px; */
 }
 
 .sub_video_btn{
-    width: 57px;
-    height: 180px;
+    /* width: 57px;
+    height: 180px; */
+    width: 2.2vw;
+    height: 7vw;
     background-color: #454545B5;
     cursor: pointer;
     color: #FFFFFF;
