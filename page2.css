@@ -1,0 +1,105 @@
+body {
+    background: #1D3158;
+    /* width: 1728px;
+    height: 1117px; */
+}
+
+#analysis {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    color: #8DDBE0;
+    position: relative;
+    margin-top: 100px;
+}
+
+#picture {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    margin-top: 160px;
+    padding: 22px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rectangle {
+    position: absolute;
+    width: 325px;
+    height: 78px;
+    text-align: center;
+    background-color: #346BFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 51px;
+}
+
+#upload {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+img {
+    width: 345.22px;
+    height: 236.51px;
+}
+
+#image {
+    margin-top: 230px;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1D3158;
+    align-items: center;
+}
+.baro{
+    width: 156px;
+    height: 33px;
+    margin-left : 95px;
+    /* margin-top: 72px; */ 
+    
+}
+.subpages{
+    width: 120px;
+    height: 30px;
+
+    padding: 0.75px, 2.5px, 0.75px, 2.5px;
+    cursor: pointer;
+    color : #FFFFFF;
+    
+    background-color:transparent;
+    border: none;
+    
+    font-size: 20px;
+}
+
+#nowpage {
+    color:#346BFF;
+    font-weight: 700;
+}
+
+.page{
+    margin-left: -354px;
+}
+.login{
+    margin-right: 129px;
+}
