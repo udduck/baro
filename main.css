@@ -60,11 +60,13 @@ main{
 }
 .right{
     width: 33.7vw;
+    margin-bottom: -2vw;
+    margin-left: 1.3vw;
     /* width: 864px; */
     /* height: 621px; */
 }
 .right img{
-    width: 35.1vw;
+    width: 37.1vw;
     height: 23.4vw;
     /* width: 901px;
     height: 601px; */
@@ -106,6 +108,7 @@ main{
     margin-top: 1.5vw;
     /* margin-left: 294px;
     margin-top: 40px; */
+    cursor: pointer;
     
 }
 .yoga{
@@ -123,7 +126,7 @@ footer{
     /* width: 1728px;
     height: 155px; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 .copyright{
