@@ -4,6 +4,47 @@ body {
     height: 1117px;
 }
 
+.container{
+    margin-top: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1D3158;
+    align-items: center;
+}
+.baro{
+    width: 8.1vw;
+    height: 1.7vw;
+    margin-left : 4.9vw;
+    /* margin-top: 72px; */ 
+    
+}
+.subpages{
+    width: 6.2vw;
+    height: 1.5vw;
+
+    padding: 0.03vw, 0.13vw, 0.03vw, 0.13vw;
+    cursor: pointer;
+    color : #FFFFFF;
+    
+    background-color:transparent;
+    border: none;
+    
+    font-size: 1vw;
+}
+
+#nowpage {
+    color:#346BFF;
+    font-weight: 700;
+}
+
+.page{
+    margin-left: -18.4vw;
+}
+
+.login{
+    margin-right: 6.7vw;
+}
+
 .main {
     display: flex;
     justify-content: center;
@@ -12,63 +53,63 @@ body {
 }
 
 .analysis {
-    width: 720px;
-    height: 61px;
-    margin-top: 200px;
+    width: 37.5vw;
+    height: 3.17vw;
+    margin-top: 10.41vw;
     
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 2.18vw;
     
     color: #8DDBE0;    
 }
 
 .picture {
-    width: 600px;
-    height: 36px;
-    margin-top: 10px;
+    width: 31.25vw;
+    height: 1.87vw;
+    margin-top: 0.52vw;
     
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
-    line-height: 36px;
+    font-size: 1.3vw;
+    line-height: 1.87vw;
     
     color: #FFFFFF; 
 }
 
 .rectangle {
-    width: 325px;
-    height: 78px;
-    margin-top: 60px;
+    width: 16.9vw;
+    height: 4vw;
+    margin-top: 3.12vw;
 
     background: #346BFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 51px;
+    box-shadow: 0vw 0.2vw 0.2vw rgba(0, 0, 0, 0.15);
+    border-radius: 2.65vw;
 }
 
 .upload {
-    width: 270px;
-    height: 36px;
-    margin-left: 40px;
+    width: 14vw;
+    height: 1.875vw;
+    margin-left: 2.08vw;
     
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 36px;
+    font-size: 1.3vw;
+    line-height: 1.87vw;
     
     color: #FFFFFF;
 }
 
 .image img {
-    width: 345.22px;
-    height: 236.51px;
-    margin-top: 130px;
+    width: 17.97vw;
+    height: 12.34vw;
+    margin-top: 6.77vw;
 }
 
-.container{
+/* .container{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -81,7 +122,7 @@ body {
     margin-left : 95px;
     /* margin-top: 72px; */ 
     
-}
+/* }
 .subpages{
     width: 120px;
     height: 30px;
@@ -106,4 +147,4 @@ body {
 }
 .login{
     margin-right: 129px;
-}
+} */
