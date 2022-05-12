@@ -142,6 +142,17 @@ body {
     
     background: #367CFF;
     border-radius: 1.25vw;
+    position: relative;
+}
+
+.img1 {
+    width: 11vw;
+    height: 7.4vw;
+    opacity: 0.3;
+    margin-left: 6.8vw;
+    margin-top: 7.7vw;
+    position: absolute;
+    border-radius: 1.25vw;
 }
 
 #box2 {
@@ -155,6 +166,16 @@ body {
     border-radius: 1.25vw;
 }
 
+.img2 {
+    width: 11vw;
+    height: 7.4vw;
+    opacity: 0.3;
+    margin-left: 6.7vw;
+    margin-top: 8vw;
+    position: absolute;
+    border-radius: 1.25vw;
+}
+
 #box3 {
     width: 17.86vw;
     height: 15.4vw;
@@ -163,6 +184,16 @@ body {
     margin-left: 1vw;
     
     background: #256096;
+    border-radius: 1.25vw;
+}
+
+.img3 {
+    width: 11vw;
+    height: 7.4vw;
+    opacity: 0.3;
+    margin-left: 7.2vw;
+    margin-top: 8vw;
+    position: absolute;
     border-radius: 1.25vw;
 }
 
@@ -178,6 +209,16 @@ body {
     border-radius: 1.25vw;
 }
 
+.img4 {
+    width: 11vw;
+    height: 7.4vw;
+    opacity: 0.3;
+    margin-left: 6.8vw;
+    margin-top: 8vw;
+    position: absolute;
+    border-radius: 1.25vw;
+}
+
 .maintext {
     width: 4.68vw;
     height: 1.35vw;
@@ -189,6 +230,7 @@ body {
     margin: 42px 229px 0vw 3vw;
     
     color: #FFFFFF;
+    z-index: 1;
     
 }
 
@@ -199,6 +241,7 @@ body {
     font-size: 1.04vw;
     color: #fff;
     padding: 0vw;
+    z-index: 1;
   }
 
 .subtext2 {
@@ -208,6 +251,7 @@ body {
     font-size: 1.04vw;
     color: #fff;
     padding: 0vw;
+    z-index: 1;
   }
 
 #dot1 {
