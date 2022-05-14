@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>page1</title>
+    <link rel="stylesheet" href="page3.css">
+    <script src="https://kit.fontawesome.com/23f20f6c08.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class = "baro" src = "img/logo/baro_logo.png">
+        <div class = "page">
+            <button class = "subpages" onclick="location.href = 'main.html'">메인 홈</button>
+            <button class = "subpages" onclick="location.href = 'Body_Analysis.html'" id="nowpage">체형분석</button>
+            <button class = "subpages" onclick="location.href = 'exercise.html'">오늘의 운동</button>
+            <button class = "subpages" onclick="location.href = 'page5.html'">건강 칼럼</button>
+        </div>
+        <div class = "login">
+            <button class = "subpages" onclick="location.href = '#'">로그인</button>
+            <button class = "subpages" onclick="location.href = '#'">회원가입</button>
+        </div>
+    </header>
+    
+    <main>
+        <div class = "left">
+            <div class = "score">
+                <p id = "result_up">홍길동님의<br>체형분석 결과 </p>
+                <p id = "result_num">89점</p>
+            </div>
+            <div class = "box">
+                <div class = "result">
+                    <p class="keyword">신체균형</p>
+                    <p class="detail">전반적으로 양호한 편이에요</p>
+                </div>
+                <div class = "result">
+                    <p class="keyword">비대칭성</p>
+                    <p class="detail">골반 위치가 아주 적절해요</p>
+                </div>
+                <div class = "result">
+                    <p class="keyword">개선필요</p>
+                    <p class="detail1">어깨가 말려서 거북목이 의심돼요<br>오른쪽 어깨가 왼쪽 어깨보다 위치가 높아요<br>오른쪽 어깨가 왼쪽 어깨보다 위치가 높아요</p>
+                </div>
+                
+                
+                <div id="rectangle">
+                    <button class="upload" onclick = "location.href='exercise.html'">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        추천 운동하러 가기
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="right">
+            <img src="img\Body_Analysis_2/man.png">
+        </div>
+    </main>
+</body>
+</html>

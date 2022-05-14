@@ -1,0 +1,180 @@
+
+body{
+    width: 1728px;
+    height: 1117px;
+    background-color: #1D3158;
+}
+
+/* <!------------------ nav bar --------------------> */
+header{
+    width: 100vw;
+    height: 8.6vw;
+
+    /* width: 1728px;
+    height: 150px; */
+
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+.baro{
+    width: 9vw;
+    height: 1.9vw;
+    /* width: 156px;
+    height: 33px; */
+    margin-left : 5.5vw;
+    /* margin-left : 95px; */
+    /* margin-top: 72px;  */
+    
+}
+
+.subpages{
+    width: 6.9vw;
+    height: 1.7vw;
+    /* width: 120px;
+    height: 30px; */
+    margin-right: 4vw;
+    padding: 0.3vw, 0.1vw, 0.3vw, 0.1vw;
+    cursor: pointer;
+    color : #FFFFFF;
+    
+    background-color:transparent;
+    border: none;
+    
+    font-size: 30px;
+}
+
+.subpages:hover{
+    color: #346BFF;
+}
+
+.page{
+    width: 53.5vw;
+    /* width: 579px; */
+    /* margin-left: -13.2vw; */
+    /* margin-left: -401px; */
+}
+.login{
+    width: 22vw;
+    /* margin-right: 7.4vw; */
+    /* margin-right: 129px; */
+}
+/* <!------------------ main --------------------> */
+.main {
+    width: 37.6vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 523px; */
+    margin-left: 30vw;
+}
+
+.analysis {
+    width: 37.4vw;
+    height: 3.5vw;
+    /* width: 647px;
+    height: 61px; */
+
+    margin-top: 4.6vw;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.18vw;
+    
+    color: #8DDBE0;    
+
+    text-align: center;
+}
+
+.picture {
+    width: 30.4vw;
+    height: 2vw;
+    margin-top: 0.52vw;
+    margin-left: -2vw;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 1.87vw;
+    
+    color: #FFFFFF; 
+    text-align: center
+}
+
+.rectangle {
+    width: 16.9vw;
+    height: 4vw;
+    margin-top: 3.12vw;
+
+    background: #346BFF;
+    box-shadow: 0vw 0.2vw 0.2vw rgba(0, 0, 0, 0.15);
+    border-radius: 2.65vw;
+}
+
+.upload {
+    width: 14vw;
+    height: 1.875vw;
+    margin-left: 2.08vw;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 1.87vw;
+    
+    color: #FFFFFF;
+    background-color:transparent;
+    border: none;
+    
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+.image img {
+    width: 17.97vw;
+    height: 12.34vw;
+    margin-top: 3vw;
+}
+
+/* .container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1D3158;
+    align-items: center;
+}
+.baro{
+    width: 156px;
+    height: 33px;
+    margin-left : 95px;
+    /* margin-top: 72px; */ 
+    
+/* }
+.subpages{
+    width: 120px;
+    height: 30px;
+
+    padding: 0.75px, 2.5px, 0.75px, 2.5px;
+    cursor: pointer;
+    color : #FFFFFF;
+    
+    background-color:transparent;
+    border: none;
+    
+    font-size: 20px;
+}
+
+#nowpage {
+    color:#346BFF;
+    font-weight: 700;
+}
+
+.page{
+    margin-left: -354px;
+}
+.login{
+    margin-right: 129px;
+} */
